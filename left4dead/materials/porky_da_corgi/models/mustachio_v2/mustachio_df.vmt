@@ -1,0 +1,20 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "Porky_da_Corgi/models/mustachio_V2/mustachio_df"
+	"$bumpmap" "Porky_da_Corgi/models/mustachio_V2/mustachio_nm"
+
+	"$phongexponenttexture" 	"Porky_da_Corgi/models/mustachio_V2/albedo"
+	$PhongAlbedoTint 1
+
+	"$halflambert" "1"
+	$diffuseexp 1.5
+	"$phong" "1"
+	"$phongboost" "0.5"
+//	$phongexponent 8
+//	$phongtint "[.5 .85 1]"
+	$phongfresnelranges "[.06 .4 0.3]"
+	$ambientocclusion 1
+
+
+
+}

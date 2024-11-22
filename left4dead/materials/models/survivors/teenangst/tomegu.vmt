@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/survivors/teenangst/tomegu"
+	"$bumpmap" "models/survivors/teenangst/tomegu_n"
+
+
+	"$phong" 			"1"
+	"$phongexponent" 		"15"
+	"$phongboost"		"1"
+	"$phongfresnelranges"	"[.05 .1 .2]"
+

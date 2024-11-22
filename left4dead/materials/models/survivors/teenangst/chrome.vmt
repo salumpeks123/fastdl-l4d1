@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/survivors/teenangst/chrome"
+	"$bumpmap" "models/survivors/teenangst/chrome_n"
+
+
+	"$phong" 			"1"
+	"$phongexponent" 		"15"
+	"$phongboost"		"10"
+	"$phongfresnelranges"	"[.05 .2 1]"
+

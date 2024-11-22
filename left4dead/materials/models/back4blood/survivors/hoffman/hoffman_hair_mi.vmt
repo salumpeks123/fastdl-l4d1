@@ -1,0 +1,12 @@
+patch
+{
+
+include "materials/models/survivors/survivors_it_shared.vmt"
+insert
+{
+$baseTexture "models\back4blood\survivors\hoffman/Hoffman_Hair_MI"
+$translucent 1
+$nocull 1
+$nodecal 1
+}
+}

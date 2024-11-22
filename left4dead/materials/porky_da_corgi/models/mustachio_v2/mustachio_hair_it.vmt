@@ -1,0 +1,23 @@
+patch
+{
+ include "materials/models/survivors/survivors_it_shared.vmt" 
+ insert 
+{
+	"$basetexture" "Porky_da_Corgi/models/mustachio_V2/mustachio_df"
+	"$bumpmap" "Porky_da_Corgi/models/mustachio_V2/mustachio_nm"
+
+	$PhongAlbedoTint 1
+
+
+	"$halflambert" "1"
+	$diffuseexp 1.5
+	"$phong" "1"
+	"$phongboost" "0.1"
+	$phongexponent 30
+//	$phongtint "[.5 .85 1]"
+	$phongfresnelranges "[.4 .4 0.3]"
+	$ambientocclusion 1
+
+
+
+}

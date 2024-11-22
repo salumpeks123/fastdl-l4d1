@@ -1,0 +1,23 @@
+patch
+{
+
+include "materials/models\survivors/survivors_it_shared.vmt"
+insert
+{
+	"$basetexture" "models/monTI_l4d1/Zoid/stet"
+	"$bumpmap" "models/monTI_l4d1/Zoid/stet_normalmap"
+
+$phong 1
+$phongboost "5.4"
+$phongexponent 4
+$phongtint "[.85 .85 1]"
+$halflambert 0
+$phongfresnelranges "[.3 .65 30]"
+$ambientocclusion 1
+
+
+
+$diffuseexp "1.5"
+
+
+}

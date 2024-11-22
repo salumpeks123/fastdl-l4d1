@@ -1,0 +1,39 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models/i6nis/bonnie/bonnie_skeleton"
+     	"$bumpmap" "models/i6nis/shared/flat_normal2"
+	"$PhongWarpTexture" "models\i6nis\shared\detail\phongwarp_metal"
+
+$surfaceprop metal
+$nodecal 1
+
+$halflambert 1
+$phong 1
+$diffuseexp 1
+
+
+
+
+$phongfresnelranges "[0.5 .9 1]"
+$phongboost .3
+$phongexponent 40
+
+
+
+	"$rimlight" "1" 
+	"$rimlightexponent" "4" 
+	"$rimlightboost" "0.2" 
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.02 0.02 0.02]"
+	"$envmapmask" "models\i6nis\shared\detail\chrome"
+
+
+
+
+
+	"$detail"					"models\i6nis\SHARED\detail\detail_plastic"
+	"$detailscale" "6"
+	"$detailblendfactor" "1.6"
+	"$detailblendmode" "0"
+}

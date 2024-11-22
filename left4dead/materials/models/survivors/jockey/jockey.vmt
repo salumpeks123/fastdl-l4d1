@@ -1,0 +1,17 @@
+vertexlitgeneric
+{
+$basetexture "models\survivors\jockey\jockey_body_color"
+$bumpmap "models\survivors\jockey\jockey_body_normal"
+$phongexponenttexture "models\survivors\jockey\jockey_exponent"
+$phong 1
+$phongboost "2.5"
+$phongexponent 5
+$phongtint "[.85 .85 1]"
+$halflambert 0
+$phongfresnelranges "[.3 .65 30]"
+$ambientocclusion 1
+
+
+
+$diffuseexp "1.5"
+}

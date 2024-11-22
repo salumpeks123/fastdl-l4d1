@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\lawyer\AliceW_Eye_DM"
+	"$bumpmap" "models\lawyer\AliceW_Eye_NM"
+	"$model" 1
+	"$envmapmode" 1
+}

@@ -1,0 +1,19 @@
+patch
+{
+
+include "materials/models/survivors/survivors_it_shared.vmt"
+insert
+{
+	"$basetexture" "models\survivors\biker\footmale"
+	"$bumpmap" "models\survivors\biker\footmale_n"
+	"$halflambert" 1
+
+
+$phong 1
+$phongboost "1"
+$phongexponent 12
+$phongtint "[.85 .85 1]"
+$phongfresnelranges "[.2 .5 5]"
+
+
+}

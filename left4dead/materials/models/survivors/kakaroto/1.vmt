@@ -1,0 +1,19 @@
+patch
+{
+
+include "materials/models/survivors/survivors_it_shared.vmt"
+insert
+{
+	"$baseTexture" "models\survivors\kakaroto\1"
+	"$surfaceprop" "skin"
+
+// -- From here down is new stuff which will only be applied if $phong is set to 1 --
+	"$phong" "1"
+//	"$ambientocclusiontexture" "models\survivors\kakaroto\piccolo_1_occlusion"
+//	"$phongexponent" 33
+	"$phongexponenttexture" "models\survivors\kakaroto\piccolo_1_exponent"
+	"$phongboost"	"6"
+	"$phongfresnelranges"	"[0.05 0.5 1]"
+}
+
+//bumpmap models/goku/skin_normal

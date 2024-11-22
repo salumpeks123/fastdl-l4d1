@@ -1,0 +1,17 @@
+patch
+{
+	include "materials/models/survivors/survivors_it_shared.vmt"
+	insert
+	{
+
+	$basetexture models/player/t_leet/DJSkully_Uniform_01_1P_D
+	$bumpmap models/player/t_leet/DJSkully_Uniform_01_1P_N
+	$halflambert 1
+	$model 1
+	$phong 1
+	$normalmapalphaphongmask 1
+	$phongexponent 4
+	$phongboost	2
+	$phongfresnelranges	"[.3 .65 10]"
+	$phongtint "[.9 .8 1.1]"
+}

@@ -1,0 +1,24 @@
+patch
+{
+
+include "materials/models\survivors/survivors_it_shared.vmt"
+insert
+{
+	"$basetexture" "models/monTI_l4d1/Zoid/nothings"
+	"$bumpmap" "models/monTI_l4d1/Zoid/hand normalmap"
+	"$surfaceprop" "Flesh"
+$alphatest 1
+$alpha 1
+$phong 1
+$phongboost "1.4"
+$phongexponent 1
+$phongtint "[.85 .85 1]"
+$halflambert 0
+$phongfresnelranges "[.3 .65 30]"
+$ambientocclusion 1
+
+
+
+$diffuseexp "1.5"
+
+}

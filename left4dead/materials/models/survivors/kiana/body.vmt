@@ -1,0 +1,26 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\survivors\kiana\body"
+	"$bumpmap" "models\survivors\kiana\body_n"
+	"$nocull" "1"
+
+	"$lightwarptexture" "models\survivors\kiana\warp"
+
+        "$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 	"1"
+        "$envmapfresnel" 			"1"
+        "$envmapFresnelMinMaxExp"		"[1 1 1]"
+        "$envmaptint" "[.1 .1 .1]"
+
+	"$phong" "1"
+	"$phongboost"	"1.3"
+	"$phongalbedotint" "1"
+        "$phongalbedoboost"	"25"
+	"$phongexponenttexture" "models\survivors\kiana\body_e"
+	"$phongfresnelranges"	"[.6 .8 .5]"
+
+	"$rimlight"               "1"
+	"$rimlightexponent"       "3"
+	"$rimlightboost"          "4"
+}
+

@@ -1,0 +1,12 @@
+patch
+{
+
+include "materials/models/survivors/survivors_it_shared.vmt"
+insert
+{
+
+	"$baseTexture" "models\survivors\vegetta\black"
+	"$bumpmap" "models\survivors\vegetta\hair_normal"
+	"$normalmapalphaenvmapmask" 1
+
+}

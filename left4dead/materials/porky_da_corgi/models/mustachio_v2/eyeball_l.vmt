@@ -1,0 +1,22 @@
+EyeRefract
+{
+$Iris "Porky_da_Corgi\models\mustachio_V2\eyetest" 
+$AmbientOcclTexture "Porky_da_Corgi\models\mustachio_V2\eyes\eye_ao" 
+$Envmap "Porky_da_Corgi\models\mustachio_V2\eyes\eye_cubemap" 
+$CorneaTexture "Porky_da_Corgi\models\mustachio_V2\eyes\eye_cornea2" 
+$EyeballRadius "1.98" 
+"$Glossiness" "0.5"
+$AmbientOcclColor "[.4 .3 .27]" 
+$Dilation "0.7" 
+$ParallaxStrength "0.2" 
+$CorneaBumpStrength "0" 
+$halflambert 1
+$nodecal 1
+$ambientocclusion 1
+
+$RaytraceSphere 1 
+$SphereTexkillCombo 0
+
+}
+
+

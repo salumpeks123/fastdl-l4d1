@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	// Original shader: AddTexture
+	"$basetexture" "models\survivors\vegetta\glint"
+	"$additive" 0
+	"$model" 1
+}

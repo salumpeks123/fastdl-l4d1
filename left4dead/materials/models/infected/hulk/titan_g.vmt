@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\infected\hulk\titan"
+	"$bumpmap" "models\infected\hulk\titan_n"
+	"$PhongExponentTexture"         "models\infected\hulk\titan_e"
+        
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 	"1"
+        "$envmapfresnel" 			"1"
+        "$envmapFresnelMinMaxExp"		"[1 1 1]"
+        "$envmaptint" "[2.5 1.5 .5]"
+        "$phong" 		"1"
+        "$phongtint" "[2.5 1.5 .5]"
+        "$phongalbedotint"			"1"
+        "$phongalbedoboost"			"1"
+        "$phongboost" "1"
+        "$phongfresnelranges" "[1 1 1]"
+        "$nocull" "1"
+}

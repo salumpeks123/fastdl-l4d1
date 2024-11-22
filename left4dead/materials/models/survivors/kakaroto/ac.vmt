@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\survivors\kakaroto\1"
+	"$surfaceprop" "skin"
+$alphatest 1
+$alpha 1
+	"$bumpmap" "models\survivors\kakaroto\skin_normal"
+	"$model" "1"
+}

@@ -1,0 +1,14 @@
+"EyeRefract"
+{
+	"$Iris" "models/dewobedil/doa5/marierose/new_comer_rng/eye"
+    "$AmbientOcclTexture" "models/dewobedil/doa5/marierose/new_comer_rng/eye-extra"
+    "$Envmap" "models/dewobedil/doa5/marierose/new_comer_rng/Marie_eye_ref"
+    "$CorneaTexture" "models/dewobedil/doa5/marierose/new_comer_rng/eye-cornea"
+    "$CorneaBumpStrength" "1.2"
+	"$halflambert" "1"
+	"$nodecal" "1"
+
+	// These effects are only available in ps.2.0b and later
+	"$RaytraceSphere" "1"				// Default 1 - Enables raytracing in the pixel shader to make the eyeball look round
+	"$SphereTexkillCombo" "1"			// Default 1 - Enables killing pixels that don't ray-intersect the sphere
+}

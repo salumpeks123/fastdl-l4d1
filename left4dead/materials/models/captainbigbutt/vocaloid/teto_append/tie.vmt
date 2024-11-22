@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models\captainbigbutt\vocaloid\teto_append\body_misc"
+	"$color" "[0.6 0.6 0.6]"
+	"$translucent" "1"
+	"$model" "1"
+}

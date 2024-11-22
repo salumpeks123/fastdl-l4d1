@@ -1,0 +1,11 @@
+patch
+{
+
+include "materials/models/survivors/survivors_it_shared.vmt"
+insert
+{
+
+	"$baseTexture" "models\survivors\kakaroto\2"
+	"$surfaceprop" "skin"
+	"$bumpmap" "models\survivors\kakaroto\clothes_normal"
+}

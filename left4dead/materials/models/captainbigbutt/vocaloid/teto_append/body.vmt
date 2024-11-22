@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\captainbigbutt\vocaloid\teto_append\body"
+	"$bumpmap" "models\captainbigbutt\vocaloid\teto_append\normal"
+
+	"$lightwarptexture" "models\captainbigbutt\vocaloid\teto_append\basewarp"
+
+	"$phong" "1"
+	"$phongboost"	".1"
+	"$phongalbedotint" "1"
+	"$phongexponenttexture" "models\captainbigbutt\vocaloid\teto_append\phong_exp"
+	"$phongfresnelranges"	"[1 .1 .1]"
+
+	"$rimlight"               "1"
+	"$rimlightexponent"       "3"
+	"$rimlightboost"          "4"
+
+	"$detail" "models\captainbigbutt\vocaloid\teto_append\body_illum"
+	"$detailscale" "1"
+	"$detailblendfactor" "0.04"
+	"$detailblendmode" "5"
+}

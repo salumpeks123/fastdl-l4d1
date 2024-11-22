@@ -1,0 +1,18 @@
+patch
+{
+
+include "materials/models/survivors/survivors_it_shared.vmt"
+insert
+{
+	$basetexture "models\survivors\biker/swimwear_d"
+	$bumpmap     "models\survivors\biker/swimwear_n"
+	$nocull 1
+
+	$phong       "1"
+	$phongboost  "0.1"
+	$phongexponenttexture "models\survivors\biker/swimwear_s"
+	$phongfresnelranges  "[0 .5 1]"
+	$phongalbedotint     "1"
+	
+	$lightwarptexture "models\survivors\biker/skin_warp"
+}

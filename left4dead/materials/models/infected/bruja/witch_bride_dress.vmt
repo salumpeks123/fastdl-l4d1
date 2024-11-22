@@ -1,0 +1,11 @@
+VertexlitGeneric
+{
+$basetexture "models\infected\bruja\witch_bride_dress"
+$allowdiffusemodulation 0
+$nocull 1
+
+
+
+
+
+}

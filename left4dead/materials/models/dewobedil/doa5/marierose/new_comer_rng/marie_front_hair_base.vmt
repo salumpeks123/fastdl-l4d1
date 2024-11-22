@@ -1,0 +1,52 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/dewobedil/doa5/marierose/new_comer_rng/Marie_front_hair_base"
+	"$bumpmap" "models/dewobedil/doa5/marierose/new_comer_rng/Marie_front_hair_nrm"
+
+	"$ambientocclusion" "1"
+	$allowdiffusemodulation 0
+	$allowalphatocoverage 1
+	"$translucent" "1"
+
+	"$phong" "1"
+	$phongexponent 10
+	"$phongboost"	"15"
+
+	"$phongexponenttexture"	"models/dewobedil/doa5/marierose/new_comer_rng/Marie_face_spe"
+	$halflambert 1
+	$phongfresnelranges		"[0 0.5 1]"
+
+
+	//"$phongtint"		"[.8 .7 .7]"
+
+	"$phongalbedotint" 1
+	
+	"$rimlight" "1" 
+	"$rimlightexponent" "30" 
+	"$rimlightboost" "6" 
+	"$rimmask" 1
+	
+	"$alphatestreference"	"0.50"
+
+	$ITAmount		0
+	$detail "models\survivors\survivor_it.vtf"
+	$detailscale 3
+	$detailblendfactor ".001" 
+	$detailblendmode 0
+	Proxies
+	{
+
+		IT
+		{
+			resultVar 		$ITAmount
+		}
+
+		Equals
+		{
+			srcVar1 		$ITAmount
+			resultVar 		$detailblendfactor
+		}
+
+	}
+
+}

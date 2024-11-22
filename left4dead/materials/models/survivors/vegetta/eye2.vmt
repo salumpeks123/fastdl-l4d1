@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\survivors\vegetta\eyes"
+	"$halflambert" 1
+	"$nodecal" "1"
+}

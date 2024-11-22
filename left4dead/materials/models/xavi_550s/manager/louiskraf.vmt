@@ -1,0 +1,11 @@
+"vertexlitgeneric" {
+    "$basetexture" "models\xavi_550s\manager\minecraft_louis"
+$bumpmap "effects/flat_normal"
+$phongboost 0.3
+$alphatest 1
+$alpha 1
+$phongexponent 1
+$phongfresnelranges "[0 20 30]"
+$basemapluminancephongmask 1
+$phong 1
+}

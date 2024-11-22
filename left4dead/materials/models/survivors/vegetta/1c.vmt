@@ -1,0 +1,17 @@
+patch
+{
+
+include "materials/models/survivors/survivors_it_shared.vmt"
+insert
+{
+
+	"$baseTexture" "models\survivors\vegetta\1"
+	"$surfaceprop" "skin"
+	"$bumpmap" "models\survivors\vegetta\skin_normal"
+	"$model" "1"
+	//"$normalmapalphaenvmapmask" 1
+	//"$envmap" "env_cubemap"
+	//"$envmapsaturation" 0
+	//"$envmapcontrast" .1
+	//"$envmaptint" "[228 186 148]"
+}

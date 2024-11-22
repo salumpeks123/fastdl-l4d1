@@ -1,0 +1,17 @@
+EyeRefract
+{
+$basetexture "models\monTI_l4d1\zoid/eyeball_base"
+$Iris "models\monTI_l4d1\zoid/pupil_l" 
+$AmbientOcclTexture "models\monTI_l4d1\zoid/256" 
+$Envmap "Engine/eye-reflection-cubemap-" 
+$CorneaTexture "Engine/eye-cornea" 
+$EyeballRadius "0.5" 
+$AmbientOcclColor "[.4 .3 .27]" 
+$ParallaxStrength "0.25" 
+$CorneaBumpStrength ".5" 
+$halflambert 1
+$nodecal 1
+$ambientocclusion 1
+
+
+}

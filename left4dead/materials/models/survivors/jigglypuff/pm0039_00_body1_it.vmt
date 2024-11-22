@@ -1,0 +1,15 @@
+patch
+{
+
+include "materials/models/survivors/survivors_it_shared.vmt"
+insert
+{
+$baseTexture "models\survivors\jigglypuff\pm0039_00_Body1"
+$bumpmap "models\survivors\jigglypuff\n"
+$lightwarptexture "models\survivors\jigglypuff\lightwarpbile"
+$phong "1"
+$phongexponent ".1"
+$phongboost ".1"
+$phongfresnelranges "[.1 .1 .1]"
+}
+}

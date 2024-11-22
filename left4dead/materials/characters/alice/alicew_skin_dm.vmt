@@ -1,0 +1,67 @@
+VertexLitGeneric
+{
+	"$basetexture" "characters\alice\AliceW_Skin_DM"
+	"$bumpmap" "characters\alice\AliceW_Skin_NM"
+	"$phongexponenttexture" "characters\alice\AliceW_SKIN_SM"
+	$ambientocclusion 1
+	$ambientocclusiontexture "characters\alice\AliceW_SKIN_LM"
+
+	$halflambert 1
+	$phong 1
+	$phongboost 4
+	"$phongalbedotint" "1"
+
+	$phongfresnelranges "[.5 1.85 10]"
+	$nodecal 1
+
+	$diffuseexp "1.5"
+	//$lightwarptexture "models\splinks\Alice/head_warp"
+
+$allowdiffusemodulation 0
+
+
+$detail "models/infected/common/l4d2/ci_burning"
+$seamless_detail 1
+$seamless_scale ".005"
+
+$detailblendfactor .001 
+$detailblendmode 2
+
+$bbqamount 1
+
+$BurnLevel 0
+Proxies
+{
+BBQLevel
+{
+resultVar $bbqamount
+}
+BurnLevel
+{
+resultVar $burnlevel
+}
+Multiply
+{
+srcVar1 $phongfresnelrange_0
+srcVar2 $bbqamount
+resultVar "$phongfresnelranges[0]"
+}
+Multiply
+{
+srcVar1 $phongfresnelrange_1
+srcVar2 $bbqamount
+resultVar "$phongfresnelranges[1]"
+}
+Multiply
+{
+srcVar1 $phongfresnelrange_2
+srcVar2 $bbqamount
+resultVar "$phongfresnelranges[2]"
+}
+Equals
+{
+srcVar1 $BurnLevel
+resultVar $detailblendfactor
+}
+}
+}

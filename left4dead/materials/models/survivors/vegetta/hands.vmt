@@ -1,0 +1,11 @@
+patch
+{
+
+include "materials/models/survivors/survivors_it_shared.vmt"
+insert
+{
+
+	"$basetexture"	"models\survivors\vegetta\hands_blue"
+	"$bumpmap" "models\survivors\vegetta\normal"
+
+}

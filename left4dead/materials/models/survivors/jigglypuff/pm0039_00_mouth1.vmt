@@ -1,0 +1,10 @@
+vertexlitgeneric
+{
+$baseTexture "models\survivors\jigglypuff\pm0039_00_Mouth1"
+$bumpmap "models\survivors\jigglypuff\n"
+$lightwarptexture "models\survivors\jigglypuff\lightwarp"
+$phong "1"
+$phongexponent ".1"
+$phongboost ".1"
+$phongfresnelranges "[.1 .1 .1]"
+}

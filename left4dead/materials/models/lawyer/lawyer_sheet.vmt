@@ -1,0 +1,16 @@
+patch
+{
+
+include "materials/models\survivors/survivors_it_shared.vmt"
+insert
+{
+	"$baseTexture" "Models/lawyer/lawyer_sheet"
+	"$bumpmap" "Models/lawyer/flat2"
+        "$model" 1
+	"$halflambert" 1
+	"$phong" "1"
+ 	"$phongexponent" 1
+	"$phongexponenttexture" "models/Models/lawyer/flat2"
+	"$phongboost"	"1"
+	"$phongfresnelranges"	"[0.03 0.015 0.01]"
+}

@@ -1,0 +1,28 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 				"models\survivors\kiana\face"
+	"$bumpmap" "models\survivors\kiana\normal"
+	"$nocull" "1"
+
+	"$lightwarptexture" "models\survivors\kiana\warp"
+
+	"$phong" "1"
+	"$phongboost"	".1"
+	"$phongalbedotint" "1"
+	"$phongexponenttexture" "models\survivors\kiana\face_e"
+	"$phongfresnelranges"	"[1 .1 .1]"
+
+	"$rimlight"               "1"
+	"$rimlightexponent"       "3"
+	"$rimlightboost"          "4"
+	"Proxies" 
+		{ 
+		"AnimatedTexture" 
+			{ 
+			"animatedTextureVar" "$basetexture" 
+			"animatedTextureFrameNumVar" "$frame" 
+			"animatedTextureFrameRate" "10" 
+			}
+		} 
+}
+

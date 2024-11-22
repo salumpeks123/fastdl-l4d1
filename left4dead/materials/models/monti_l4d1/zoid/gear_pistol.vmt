@@ -1,0 +1,18 @@
+patch
+{
+
+include "materials/models\survivors/survivors_it_shared.vmt"
+insert
+{
+  $basetexture "models/monTI_l4d1/Zoid/pistol_gear"
+  $bumpmap "models/monTI_l4d1/Zoid/body normalmap"
+$phong 1
+$phongboost "0.5"
+$phongexponent 7
+$phongtint "[.85 .85 1]"
+$phongfresnelranges "[.2 .5 5]"
+$nodecal 1
+$ambientocclusion 1
+
+}
+}

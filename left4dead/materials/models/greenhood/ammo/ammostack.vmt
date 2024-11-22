@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\greenhood\ammo/AmmoStack"
+
+    "$detail" "models\greenhood\ammo/detail"
+	$detailscale "8"
+
+}

@@ -1,0 +1,23 @@
+"patch"
+{
+	"include" "materials/models/survivors/survivors_it_shared.vmt"
+
+	"insert"
+	{
+	"$basetexture" "models\captainbigbutt\vocaloid\teto_append\hair"
+	"$bumpmap" "models\captainbigbutt\vocaloid\teto_append\normal"
+	"$nodecal" "1"
+
+	"$lightwarptexture" "models\captainbigbutt\vocaloid\teto_append\hairwarp"
+
+	"$phong" "1"
+	"$phongboost"	".5"
+	"$phongalbedotint" "1"
+	"$phongexponenttexture" "models\captainbigbutt\vocaloid\teto_append\phong_exp"
+	"$phongfresnelranges"	"[1 .1 .1]"
+
+	"$rimlight"               "1"
+	"$rimlightexponent"       "3"
+	"$rimlightboost"          "4"
+	}
+}
