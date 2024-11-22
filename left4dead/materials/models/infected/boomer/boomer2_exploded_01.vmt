@@ -1,0 +1,4 @@
+VertexLitGeneric
+{
+$baseTexture "models\infected\boomer/Boomer2_exploded_01"
+}

@@ -1,0 +1,16 @@
+patch
+{
+	include "materials/models/survivors/survivors_it_shared.vmt"
+	insert
+	{
+		"$baseTexture" "models/infected/xmas/items/all_class/xms_santahat"
+		 $bumpmap "models/infected/xmas/items/all_class/xms_santahat_bump"
+
+		"$phong" "1"
+		"$phongboost" "1"
+		"$phongexponent" "5"
+		"$phongfresnelranges"	"[.2 .5 1]"
+
+
+ 	}
+}

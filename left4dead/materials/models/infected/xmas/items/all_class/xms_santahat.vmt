@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/infected/xmas/items/all_class/xms_santahat"
+	$bumpmap "models/infected/xmas/items/all_class/xms_santahat_bump"
+	$nodecal 1
+	"$phong" "1"
+	"$phongboost" "1"
+	"$phongexponent" "5"
+	"$phongfresnelranges"	"[.2 .5 1]"
+
+
+ }
